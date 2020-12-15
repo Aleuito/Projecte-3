@@ -1,0 +1,246 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../media/fonts/montserrat/Montserrat-Bold.ttf);
+}
+body{
+    margin: 0 auto;
+    background: url(../media/images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    font-family: montserrat;
+}
+.row{
+    display: flex;
+}
+.boto-menu{
+    padding-left: 15px;
+}
+header {
+    padding: 12px 0;
+    background-color: #343A40;
+}
+.content .col-sm-12.col-md-6.col-lg-6{
+    width: 50%;
+}
+.calendari{
+    padding-top: 2%;
+    padding-left: 4%;
+}
+.calendari iframe {
+    border: 2px solid #343A40 !important;
+    border-radius: 11px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.calendari-titol{
+    background-color: #343A40;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 14px;
+    width: 91.4%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.logo-plus-button{
+    display: none !important;
+}
+header .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 70px;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+header .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+header .sidenav a:hover {
+    color: #f1f1f1;
+}
+
+header .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    header .sidenav {
+        padding-top: 15px;
+    }
+
+    header .sidenav a {
+        font-size: 18px;
+    }
+}
+iframe #calendarTitle {
+    display: none;
+}
+.sections-menu{
+    padding-top: 4%;
+}
+.sections-menu img{
+    border: 2px solid #343A40 !important;
+    border-radius: 11px;
+}
+#MyClockDisplay{
+    font-size: 70px;
+}
+#date{
+    font-size: 45px;
+    margin-top: 0;
+}
+footer{
+    padding-top: 50px;
+}
+footer p{
+    text-align: center;
+    
+}
+#center{
+	margin:0px auto;
+	width:95%;
+}
+#center-set{
+	float:left;
+	width:100%;
+	padding-top:1%;
+	padding-bottom:0.5%;
+	background-color:transparent;
+}
+#signup{
+	float:left;
+	width:50%;
+}
+#signup-st,#login-st{
+	background-color:#22313F;
+	margin:50px;
+	border-radius:20px;
+	-webkit-box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.85);
+}
+#reg{
+	padding-top:10px;
+}
+#reg-head,#reg-bottom,#reg-head-fail{
+	width:100%;
+	text-align:center;
+	background-color:#fff;
+	font-weight:bold;
+}
+.headrg{
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	padding-top:12px;
+	padding-bottom:12px;
+	font-size:22px;
+	color:#6C7A89;
+}
+.btmrg{
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	font-size:18px;
+	color:#22313F;
+}
+#reg-head-fail{
+	color:#D35400;
+}
+#reg-head:hover{
+	color:#3498DB;
+	transition:1s;
+}
+#tb-name{
+	float:right;
+	font-size:20px;
+}
+#tb-box{
+	height:22px;
+	width:200px;
+}
+#st{
+	width:100%;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:10px;
+}
+#st-btn{
+	text-align:center;
+	padding:10px 21px 10px 21px;
+	background-color:#3498DB;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+	font-size:20px;
+	font-weight:bold;
+}
+#st-btn:hover{
+	color:#3498DB;
+	background:#fff;
+	transition:1s;
+}
+td.t-1{
+	float:left;
+	width:44%;
+	text-align:right;
+	color:#C5EFF7;
+}
+td.t-2{
+	float:right;
+	width:55%;
+}
+#lg-1{
+	padding:10px;
+	float:left;
+	width:95%;
+}
+.tl-1{
+	float:left;
+	width:40%;
+	padding-right:5%;
+	text-align:center;
+	color:#C5EFF7;
+}
+.tl-4{
+	font-size:17px;
+	font-weight:bold;
+	text-align:center;
+	color:#FDE3A7;
+}
+#login{
+	float:right;
+	width:50%;
+}
+#login-sg{
+	margin-top:20%;
+}
+#footer{
+	background-color:transparent;
+	width:100%;
+	height:50px;
+	margin:0px;
+	float:left;
+
+}
+#footer p{
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	color:#000;
+}

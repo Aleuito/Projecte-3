@@ -1,0 +1,197 @@
+
+@font-face {
+    font-family: montserrat;
+    src: url(../media/fonts/montserrat/Montserrat-Bold.ttf);
+}
+body{
+    margin: 0 auto;
+    font-family: montserrat;
+    background: url(../media/images/login-background.jpg);
+    background-size: cover;
+}
+.form {
+    margin: 188px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
+    box-shadow: 5px 10px 31px -2px #000;
+}
+h1.login-title {
+    color: #666;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+.login-button {
+    color: #fff;
+    background: #55a1ff;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.link {
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.link a {
+    color: #666;
+}
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
+#center{
+	margin:0px auto;
+	width:95%;
+}
+#center-set{
+	
+	width:100%;
+	padding-top:1%;
+	padding-bottom:0%;
+	background-color:transparent;
+}
+#signup{
+	float:left;
+	width:35%;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-shadow: -1px 1px 19px 3px #000;
+}
+#signup-st,#login-st{
+	background-color:transparent;
+	margin:50px;
+	border-radius:20px;
+}
+#reg{
+	padding-top:10px;
+}
+#reg-head,#reg-bottom,#reg-head-fail{
+	width:100%;
+	text-align:center;
+	background-color:#fff;
+	font-weight:bold;
+}
+.headrg{
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	padding-top:12px;
+	padding-bottom:12px;
+	font-size:22px;
+	color:#6C7A89;
+}
+.btmrg{
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	font-size:18px;
+	color:#22313F;
+}
+#reg-head-fail{
+	color:#D35400;
+}
+#reg-head:hover{
+	color:#3498DB;
+	transition:1s;
+}
+#tb-name{
+	float:right;
+	font-size:20px;
+}
+#tb-box{
+	height:22px;
+	width:200px;
+}
+#st{
+	width:100%;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:10px;
+}
+#st-btn{
+	text-align:center;
+	padding:10px 21px 10px 21px;
+	background-color:#3498DB;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+	font-size:20px;
+	font-weight:bold;
+}
+#st-btn:hover{
+	color:#3498DB;
+	background:#fff;
+	transition:1s;
+}
+td.t-1{
+	float:left;
+	width:44%;
+	text-align:right;
+	color:#000;
+}
+td.t-2{
+	float:right;
+	width:55%;
+}
+#lg-1{
+	padding:10px;
+	float:left;
+	width:95%;
+}
+.tl-1{
+	float:left;
+	width:40%;
+	padding-right:5%;
+	text-align:center;
+	color:#000;
+}
+.tl-4{
+	font-size:17px;
+	font-weight:bold;
+	text-align:center;
+	color:#FDE3A7;
+}
+#login{
+	float:left;
+    margin-left: 50px;
+	width:35%;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-shadow: -1px 1px 19px 3px #000;
+}
+#login-sg{
+	margin-top:20%;
+}
+#footer{
+	background-color:transparent;
+	width:100%;
+	height:50px;
+	margin:0px;
+	float:left;
+}
+#footer p{
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	color:#fff;
+}
